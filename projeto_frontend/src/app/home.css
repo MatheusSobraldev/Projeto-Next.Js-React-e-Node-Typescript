@@ -1,0 +1,44 @@
+
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  background-color: #8b0000; /* vermelho vinho */
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+
+main h2 {
+  color: #8b0000;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+
+main img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

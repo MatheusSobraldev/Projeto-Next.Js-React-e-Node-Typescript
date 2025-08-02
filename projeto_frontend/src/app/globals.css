@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f5f2;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #8b0000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+header h1 img {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+/* Menu horizontal */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fff5e6;
+}
+
+/* Rodapé */
+footer {
+  background-color: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.container img{
+  width: 200px;
+  height: auto;
+}
+
+
+
